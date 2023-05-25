@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="sorting.css" />
+    <title>Sorting Visualizer</title>
+  </head>
+  <body>
+      <center><h2>Sorting Visualizer</h2></center>
+    <navbar class="Navbar">
+      <div class="leftcontainer">
+        <button id="new_array">New Array</button>
+        <div class="inputbar">
+            <p>No of Bars</p>
+            <input type="range" id="arr_size" min="20" max="120" step="1" value=60>
+        </div>
+        <div class="speedbar">
+            <p>Speed</p>
+            <input type="range" id="speed" min="10" max="1000" step="1" value=100 >
+        </div>
+      </div>
+      <div class="rightcontainer">
+        <button id="Bubblesort">Bubble Sort</button>
+        <button id="Insertionsort">Insertion Sort</button>
+        <button id="Selectionsort">Selection Sort</button>
+        <button id="Quicksort">Quick Sort</button>
+        <!-- <button id="Mergesort">Merge Sort</button> -->
+      </div>
+    </navbar>
+
+    <div class="maincontainer" id="maincontainer">
+
+    </div>
+    <script src="./javascripts/requirements.js"></script>
+  </body>
+</html>
